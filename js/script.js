@@ -47,8 +47,11 @@ $("#generate").on("click", function () {
 
   let html = /*html */ `
   <div class="form-group row">
-    <label for="jumlah-matkul" class="col-md-5 col-form-label">Jumlah Matkul yang diambil:</label>
-    <input type="text" id="n-matkul" class="col-md-4 form-control">
+    <div class="col-md-12">
+      <label for="jumlah-matkul" class="col-md-5 col-form-label">Jumlah Matkul yang diambil:</label>
+      <input type="text" id="n-matkul" class="col-md-3 form-control" style="display: inline;"
+        placeholder="  e.g. 8">
+    </div>
   </div>
   <hr>`;
 
